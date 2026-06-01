@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Custom Textile and Garment Work",
+    "summary": "Commissioned projects built around use case, materials, and style direction.",
+    "availability": "Limited availability",
+    "tags": ["Commission", "One-to-one"]
+  },
+  {
+    "title": "Small Group Lessons",
+    "summary": "Introductory and intermediate sessions on process integration from fiber prep to fabric outcome.",
+    "availability": "Coming soon",
+    "tags": ["Education", "Small group"]
+  },
+  {
+    "title": "Talks and Demonstrations",
+    "summary": "Short talks and practical demos on provenance, process, and full-stack craft practice.",
+    "availability": "Available now",
+    "tags": ["Speaking", "Workshop"]
+  },
+  {
+    "title": "Collaborative Studio Partnerships",
+    "summary": "Project-based collaboration with makers, educators, and aligned creative teams.",
+    "availability": "By inquiry",
+    "tags": ["Collaboration", "Project-based"]
+  }
+]

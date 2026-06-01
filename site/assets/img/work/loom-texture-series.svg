@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Loom texture series abstract woven grid">
+  <rect width="1200" height="800" fill="#c8b79e" />
+  <g opacity="0.42">
+    <rect x="120" y="120" width="260" height="220" fill="#efe4d2" />
+    <rect x="470" y="120" width="260" height="220" fill="#e0cfb8" />
+    <rect x="820" y="120" width="260" height="220" fill="#d1baa0" />
+    <rect x="120" y="460" width="260" height="220" fill="#d9c7ae" />
+    <rect x="470" y="460" width="260" height="220" fill="#cab397" />
+    <rect x="820" y="460" width="260" height="220" fill="#bda182" />
+  </g>
+  <g stroke="#6e4e3a" stroke-opacity="0.25" stroke-width="1.5">
+    <path d="M120 230h960" />
+    <path d="M120 570h960" />
+    <path d="M250 120v560" />
+    <path d="M600 120v560" />
+    <path d="M950 120v560" />
+  </g>
+</svg>

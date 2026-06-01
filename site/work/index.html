@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Work | Bastion Fiber Arts</title>
+    <meta name="description" content="Portfolio and gallery of fiber projects from processing and spinning through weaving, sewing, and styling." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="../index.html">Bastion Fiber Arts</a>
+        <button class="menu-button" type="button" data-menu-button aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+        <nav id="primary-navigation" class="primary-nav" aria-label="Primary" data-primary-nav>
+          <ul class="nav-list">
+            <li><a href="../about/index.html">About</a></li>
+            <li><a href="index.html" aria-current="page">Work</a></li>
+            <li><a href="../offerings/index.html">Offerings</a></li>
+            <li><a href="../posts/index.html">Posts</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="container">
+      <section class="section reveal">
+        <p class="kicker">Work / Gallery</p>
+        <h1>Selected projects across the full fiber process</h1>
+        <p class="lead">This gallery highlights projects by craft stage while preserving the through-line from raw material to finished garment.</p>
+      </section>
+
+      <section class="section reveal" aria-label="Work gallery">
+        <div class="work-toolbar">
+          <label for="material-filter">Filter by material</label>
+          <select id="material-filter" data-work-filter>
+            <option value="all">All materials</option>
+          </select>
+        </div>
+        <div
+          class="card-grid three"
+          data-work-list
+          data-source="../data/work.json"
+          data-image-prefix="../"
+          data-work-filter-target="material-filter"
+          data-work-sort="year-desc"
+        ></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Bastion Fiber Arts · Fiber professional</p>
+        <p>Copyright <span data-current-year></span> Bastion Fiber Arts</p>
+      </div>
+    </footer>
+
+    <script src="../data/local-data.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>

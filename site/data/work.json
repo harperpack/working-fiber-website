@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Field to Fleece Study",
+    "summary": "A material-first project exploring local wool preparation and yarn behavior across weave structures.",
+    "materials": ["Wool", "Linen"],
+    "stages": ["Processing", "Spinning"],
+    "year": "2025",
+    "image": "assets/img/work/field-to-fleece-study.svg",
+    "imageAlt": "Prepared fleece and yarn samples laid out on linen"
+  },
+  {
+    "title": "Loom Texture Series",
+    "summary": "Handwoven cloth tests focused on drape, texture contrast, and practical garment use.",
+    "materials": ["Wool"],
+    "stages": ["Weaving", "Textiles"],
+    "year": "2026",
+    "image": "assets/img/work/loom-texture-series.svg",
+    "imageAlt": "Grid of woven texture swatches"
+  },
+  {
+    "title": "Styled Linen Ensemble",
+    "summary": "Construction and styling of a linen-led outfit built around movement, layering, and durability.",
+    "materials": ["Linen"],
+    "stages": ["Sewing", "Styling"],
+    "year": "2026",
+    "image": "assets/img/work/styled-linen-ensemble.svg",
+    "imageAlt": "Linen outfit silhouette with woven accessory"
+  }
+]
