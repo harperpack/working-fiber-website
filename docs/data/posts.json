@@ -1,16 +1,9 @@
 [
   {
-    "title": "From Fiber to Fabric: Why Sequence Matters",
-    "slug": "from-fiber-to-fabric",
-    "date": "2026-05-31",
-    "excerpt": "How early preparation choices influence spinning, weaving, and garment outcomes.",
+    "title": "Growing Flax for Fiber",
+    "slug": "flax-presentation-hga",
+    "date": "2026-03-28",
+    "excerpt": "My presentation on growing flax in Chicagoland at the 2026 HGA Fiber a Thon",
     "tags": ["process", "weaving", "garments"]
   },
-  {
-    "title": "Studio Notes: Testing Weave Density",
-    "slug": "studio-notes-testing-weave-density",
-    "date": "2026-06-15",
-    "excerpt": "Draft-to-field notes on weave density decisions and how they affect cloth behavior.",
-    "tags": ["weaving", "experiments", "studio"]
-  }
 ]
