@@ -5,7 +5,7 @@
     "materials": ["Wool", "Linen"],
     "stages": ["Processing", "Spinning"],
     "year": "2025",
-    "image": "assets/img/work/field-to-fleece-study.svg",
+    "image": "assets/img/work/field to fleece study.jpeg",
     "imageAlt": "Prepared fleece and yarn samples laid out on linen"
   },
   {
@@ -14,16 +14,16 @@
     "materials": ["Wool"],
     "stages": ["Weaving", "Textiles"],
     "year": "2026",
-    "image": "assets/img/work/loom-texture-series.svg",
+    "image": "assets/img/work/loom texture series.jpeg",
     "imageAlt": "Grid of woven texture swatches"
   },
   {
-    "title": "Styled Linen Ensemble",
-    "summary": "Construction and styling of a linen-led outfit built around movement, layering, and durability.",
+    "title": "Linen Yardage",
+    "summary": "An 8-shaft huck lace in 28/1 linen for the bodice of a very special dress.",
     "materials": ["Linen"],
-    "stages": ["Sewing", "Styling"],
+    "stages": ["Weaving","Sewing", "Styling"],
     "year": "2026",
-    "image": "assets/img/work/styled-linen-ensemble.svg",
-    "imageAlt": "Linen outfit silhouette with woven accessory"
+    "image": "assets/img/work/linen yardage.jpeg",
+    "imageAlt": "8-shaft huck lace in 28/1 linen"
   }
 ]
