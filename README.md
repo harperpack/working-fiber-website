@@ -63,6 +63,5 @@ http://localhost:8000/docs/
 ## Notes
 
 - The runtime script fetches JSON from local `docs/data/` files.
-- A fallback file `docs/data/local-data.js` is included so key content still renders when `fetch` is blocked in some `file://` browser contexts.
-- When using Option A (opening HTML files directly), keep `docs/data/local-data.js` aligned with `docs/data/*.json` if you want fallback content to match your latest edits.
+- When opening HTML files directly with `file://`, some browsers may block JSON `fetch`; use the local server workflow above for reliable preview.
 - Replace placeholder imagery in `docs/assets/img/` with production project photos when available.

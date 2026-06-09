@@ -277,6 +277,14 @@ h3 {
   margin-bottom: var(--space-3);
 }
 
+.home-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  color: #E9DCC9;
+  margin-bottom: var(--space-1);
+}
+
 .kicker {
   text-transform: uppercase;
   letter-spacing: 0.08em;

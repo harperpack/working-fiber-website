@@ -1,5 +1,4 @@
 (function () {
-  const fallbackData = window.BFA_LOCAL_DATA || {};
   const menuButton = document.querySelector('[data-menu-button]');
   const primaryNav = document.querySelector('[data-primary-nav]');
 
@@ -73,7 +72,7 @@
       const linkPrefix = postsList.getAttribute('data-post-link-prefix') || 'posts/';
       const limit = toLimit(postsList.getAttribute('data-limit'));
 
-      loadCollection(dataPath, 'posts')
+      loadCollection(dataPath)
         .then(function (posts) {
           if (!Array.isArray(posts) || posts.length === 0) {
             postsList.innerHTML = '<li class="post-list-item">No published posts yet.</li>';
@@ -116,7 +115,7 @@
       const filterTargetId = workList.getAttribute('data-work-filter-target');
       const materialFilter = filterTargetId ? document.getElementById(filterTargetId) : null;
 
-      loadCollection(dataPath, 'work')
+      loadCollection(dataPath)
         .then(function (items) {
           if (!Array.isArray(items) || items.length === 0) {
             workList.innerHTML = '<p class="muted">No work items available right now.</p>';
@@ -205,7 +204,7 @@
       const dataPath = offeringsList.getAttribute('data-source') || 'data/offerings.json';
       const limit = toLimit(offeringsList.getAttribute('data-limit'));
 
-      loadCollection(dataPath, 'offerings')
+      loadCollection(dataPath)
         .then(function (items) {
           if (!Array.isArray(items) || items.length === 0) {
             offeringsList.innerHTML = '<p class="muted">No offerings are listed right now.</p>';
@@ -239,19 +238,13 @@
     });
   }
 
-  function loadCollection(path, key) {
+  function loadCollection(path) {
     return fetch(path)
       .then(function (res) {
         if (!res.ok) {
-          throw new Error('Failed to load ' + key + ' data');
+          throw new Error('Failed to load data from ' + path);
         }
         return res.json();
-      })
-      .catch(function (err) {
-        if (Array.isArray(fallbackData[key])) {
-          return fallbackData[key];
-        }
-        throw err;
       });
   }
 
